@@ -1,7 +1,7 @@
 [project]
-name = "schema_generations"
+name = "python datascience"
 version = "42"
-dependencies = ["ERAlchemy","sqlalchemy<1.4"]
+dependencies = ["pandas","numpy","matplotlib","azure-cosmos","azure-kusto-data","azure-kusto-ingest"]
 
 [project.optional-dependencies]
 dev = ["ipykernel"]
